@@ -1,0 +1,26 @@
+body{
+    background-image: url(https://feab.files.wordpress.com/2015/09/fundo-azul.jpg);
+}
+
+h1{
+    font-size: 50px;
+}
+
+.main{
+    text-align: center;
+    margin: auto;
+}
+
+.corpo img{
+    width: 40px;       
+}
+
+.corpo input{
+    vertical-align: top;
+    height: 30px;
+    padding-left: -100px;
+}
+.corpo textarea{
+    height: 45px;
+}
+
