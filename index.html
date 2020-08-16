@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Formulario</title>
+        <title>Atividade - formulario</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
 
     </head>
     <body>
-        <section class="main">
-            <h1>Cadastre-se</h1>
+        <h1>Registre-se</h1>
+            <section class="main">
+            
                 <div class="corpo">
-                    <img src="./img/name.png"><input type="text" placeholder="Nome"><br>
-                    <img  src="./img/phone.png"> <input type="text" placeholder="(xx) xxxxx-xxxx"><br>
-                    <img src="./img/email.png"><input type="email" placeholder="E-mail"><br>    
-                    <img src="./img/senha.png"><input type="password" placeholder="Password"><br><br>
-                    <img src="./img/Comment.png"> <textarea placeholder="Observações"></textarea><br>
+                    <img src="./img/name.png"alt="error"><input type="text" placeholder="Nome" ><br>
+                         <div class="choice">
+                             <img src="./img/gender.png" alt="error">
+                            <input type="radio" name="sexo"><label for="sexo">masculino</label>
+                            <input type="radio" name="sexo"><label for="sexo">feminino</label><br>
+                        </div>
+
+                    <img  src="./img/phone.png"alt="error"> <input type="text" placeholder="(xx) xxxxx-xxxx" ><br>
+
+                    <img src="./img/email.png"alt="error"><input type="email" placeholder="E-mail" ><br>    
+                    <img src="./img/senha.png"alt="error"><input type="password" placeholder="senha" ><br><br>
+                    <img src="./img/calendar.png" alt="error"> <input type="date" placeholder="dd/m/a"><br>
+                    <img src="./img/Comment.png"alt="error" height="60px" > <textarea placeholder="Observações" ></textarea><br>
                     <button type="submit" onclick="alert('Seu cadastro foi concluído!')">Enviar</button>
                 </div>
-        </section>  
+            </section>  
     </body>
 </html>

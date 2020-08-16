@@ -1,14 +1,17 @@
 body{
-    background-image: url(https://feab.files.wordpress.com/2015/09/fundo-azul.jpg);
+    background-image: url(https://www.publicdomainpictures.net/pictures/130000/velka/abstract-wallpaper-1442844611tgq.jpg);
+    background-size: cover;
 }
 
 h1{
     font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
 }
 
 .main{
     text-align: center;
-    margin: auto;
+    margin-top: 100px;
 }
 
 .corpo img{
@@ -17,10 +20,16 @@ h1{
 
 .corpo input{
     vertical-align: top;
-    height: 30px;
+    height: 40px;
     padding-left: -100px;
+    width: auto;
 }
 .corpo textarea{
     height: 45px;
+    width: 20%;
+    height: 80px;
 }
 
+.choice input{
+    vertical-align: middle;
+}
