@@ -9,24 +9,34 @@
     </head>
     <body>
         <h1>Registre-se</h1>
-            <section class="main">
-            
-                <div class="corpo">
-                    <img src="./img/name.png"alt="error"><input type="text" placeholder="Nome" ><br>
-                         <div class="choice">
-                             <img src="./img/gender.png" alt="error">
-                            <input type="radio" name="sexo"><label for="sexo">Masculino</label>
-                            <input type="radio" name="sexo"><label for="sexo">Feminino</label><br>
-                        </div>
+                <section class="main">
 
-                    <img  src="./img/phone.png"alt="error"> <input type="text" placeholder="(xx) xxxxx-xxxx" ><br>
+                    <div class="nome">
+                        <img src="./img/name.png"alt="error"><input type="text" placeholder="Nome completo" >
+                    </div>
+                    
+                    <div class="sexo">
+                        <img src="./img/gender.png" alt="error">
+                        <input type="text" name="sexo" placeholder="Genêro">
+                    </div>
 
-                    <img src="./img/email.png"alt="error"><input type="email" placeholder="E-mail" ><br>    
-                    <img src="./img/senha.png"alt="error"><input type="password" placeholder="senha" ><br><br>
-                    <img src="./img/calendar.png" alt="error"> <input type="date" placeholder="dd/m/a"><br>
-                    <img src="./img/Comment.png"alt="error" height="60px" > <textarea placeholder="Observações" ></textarea><br>
-                    <button type="submit" onclick="alert('Seu cadastro foi concluído!')">Enviar</button>
-                </div>
-            </section>  
+                    <div class="numero">
+                        <img  src="./img/phone.png"alt="error"> <input type="text" placeholder="(xx) xxxxx-xxxx" ><br>
+                    </div>
+
+                    <div class="email">
+                        <img src="./img/email.png"alt="error"><input type="email" placeholder="E-mail" ><br>  
+                    </div>
+
+                    <div class="senha">
+                        <img src="./img/senha.png"alt="error"><input type="password" placeholder="senha" ><br><br>
+                    </div>
+
+                    <div class="observação">
+                        <img src="./img/Comment.png"alt="error" height="60px" > <textarea placeholder="Observações" ></textarea><br>
+                    </div>                
+                
+                </section> 
+                        <button type="submit" onclick="alert('Seu cadastro foi concluído!')">Enviar</button>
     </body>
 </html>

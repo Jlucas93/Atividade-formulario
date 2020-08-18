@@ -9,30 +9,108 @@ h1{
     text-align: center;
     color: whitesmoke;
 }
-
-.main{
+.main div{
     text-align: center;
-    margin-top: 80px;
+    display: flex;
+    margin-left: 35%;
+    margin-bottom: 10px;
 }
 
-.corpo img{
-    width: 40px;       
+.nome{
+    text-align: center;
 }
 
-.corpo input{
-    vertical-align: top;
-    height: 40px;
-    padding-left: -100px;
-    width: auto;
-    margin-bottom: 12px;
+.nome input{
+    width: 50%;
+    border: none;
+    border-radius: 10px;
 }
 
-.corpo textarea{
-    height: 45px;
-    width: 40%;
-    height: 80px;
+.sexo img{
+    padding: none;
 }
 
-.choice input{
-    vertical-align: middle;
+.sexo{
+    text-align: center;
+}
+
+.sexo input{
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+}
+
+.sexo img{
+    padding: none;
+}
+
+.numero{
+    display: flex;
+    margin-left: 35%;
+}
+
+.numero input{
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.numero img{
+    padding: none;
+
+}
+
+.email{
+    display: flex;
+}
+
+.email input{
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+}
+
+.email img{
+    padding: none;
+}
+
+.senha{
+    display: flex;
+}
+
+.senha input{
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+}
+
+.senha img{
+    padding: none;
+}
+.observação{
+    text-align: center;
+}
+
+.observação textarea{
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    height: 100px;
+}
+.observação{
+    padding: 10px;
+}
+
+button{
+    width: 25%;
+    height: 37px;
+    background-color: whitesmoke;
+    border: none;
+    margin-left: 43%;
+}
+
+button:hover{
+    background-color: rgba(36, 34, 211, 0.459);
+    color: white;
 }
